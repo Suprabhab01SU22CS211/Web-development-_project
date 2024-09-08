@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World</title>
+    <style>
+     body { background: url('https://wallpaperaccess.com/full/1881717.jpg') center/cover no-repeat fixed; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">TRAVEL ADVENTURE EXPLORE THE WORLD</div>
+            <ul class="nav-links">
+                <li><a href="#home"onclick="toggleInfo(event,'home-info')">Home</a></li>
+                <p id="home-info"class="info">Welcome to Explore The World!Discover extraordinary destinations and embark on unforgettable adventures. Our platform connects you to the most remarkable places around the globe, offering a gateway to vibrant cultures, breathtaking landscapes, and unique experiences.Whether you're seeking the romance of Paris, the serenity of Bali, or the energy of New York, we provide insights and inspiration to help you plan your perfect trip. Explore, dream, and make lasting memories with our curated travel guides.Start your journey here!we can find many upadates over here,and returns back to homepage</p>
+                <li><a href="#destinations"onclick="toggleInfo(event,'destinations-info')">Destinations</a></li>
+                <p id="destinations-info"class="info">Explore Our Top Destinations!From the historic charm of Paris to the serene beaches of Bali, our handpicked destinations offer something for every traveler. Dive into vibrant cultures, stunning landscapes, and unique experiences that await around the world.Whether you're craving an urban adventure in New York or a tranquil escape in Bali, our guides provide the perfect inspiration for your next journey. Discover must-visit spots, local tips, and unforgettable moments in each of our featured destinations.Start planning your adventure today!</p>
+                <li><a href="#about"onclick="toggleInfo(event,'about-info')">About Us</a></li>
+                <p id="about-info"class="info">About UsAt Explore The World, we are passionate about travel and dedicated to helping you discover extraordinary places. Our mission is to provide insightful guides and personalized recommendations for unforgettable journeys.We believe that travel enriches lives, broadens perspectives, and creates lasting memories. Our team of travel experts curates content to inspire and inform, making your trip planning seamless and enjoyable.Join us in exploring the wonders of the world!</p>
+                <li><a href="#contact"onclick="toggleInfo(event,'contact-info')">Contact</a></li>
+                <p id="contact-info"class="info">Contact UsWe’d love to hear from you! Whether you have questions, feedback, or need assistance with your travel plans, our team is here to help.Reach out to us via email, phone, or through our online form. Your inquiries and suggestions are important to us, and we strive to respond promptly.Get in touch and let us assist you in making your travel experience exceptional</p>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Find the best places to visit around the globe.Travel makes one modest.u see the tiny place u occupy in world,we travel not to escape the life but for life not to escape us.travel far,travel wide,travel wide Travel strips away the layers of familiarity, revealing the diverse tapestries of life that exist beyond our own.""Seeing the vast oceans, towering mountains, and sprawling cities reminds you that the world’s wonders far exceed what one lifetime can fully grasp.""Travel not only shows you how small you are but also how connected we all are, sharing the same sky, sun, and earth.""Every new culture you encounter teaches you that your customs, beliefs, and ways are just one version of countless human experiences.""Travel humbles you by making you a stranger in a new place, reminding you that there is always something new to</p>
+            <a href="#destinations" class="cta-button">Explore Destinations</a>
+        </section>
+    </header>
+
+    <main>
+        <section id="destinations" class="section destinations">
+            <h2>Top Destinations</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="http://visasfrance.co.uk/blog/wp-content/uploads/2018/08/Eiffel-Tower.jpg" alt="Destination 1">
+                    <h3>Paris, France</h3>
+                    <p>Experience the city of love and lights.aris, the City of Light, is renowned for its romantic ambiance, iconic landmarks, and rich artistic heritage. From the Eiffel Tower and the Louvre Museum to quaint cafes lining cobblestone streets, Paris is a city that embodies elegance and charm."Paris is not just a city; it’s a feeling, a blend of art, history, and timeless romance that lingers in the air.""Walking along the Seine, surrounded by centuries-old architecture and vibrant street life, makes every moment in Paris feel like a masterpiece.""In Paris, every corner tells a story, whether it’s through the whispers of old books in Shakespeare and Company or the taste of a fresh croissant at a corner bakery.</p>
+                </div>
+                <div class="card">
+                    <img src="https://www.traveloffpath.com/wp-content/uploads/2022/11/Aerial-View-Of-Kuta-Bali-Indonesia-1.jpg" alt="Destination 2">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Discover tropical beaches and vibrant culture.Bali, IndonesiaBali is a tropical paradise known for its stunning beaches, lush rice terraces, vibrant temples, and warm hospitality. It’s a place where spirituality and nature blend seamlessly, offering both adventure and tranquility."Bali is a symphony of emerald jungles, turquoise waters, and the warm embrace of culture that leaves your soul refreshed and inspired.""From sunrise yoga sessions by the beach to exploring ancient temples, Bali offers a sanctuary where nature and spirituality coexist in harmony.""The scent of incense, the sound of waves, and the sight of endless green fields make Bali a destination that feels like a dream you never want to wake up from.</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/8a/26/b1/8a26b1758548ecc43eae8e089d6ce926.jpg" alt="Destination 3">
+                    <h3>New York, USA</h3>
+                    <p>The city that never sleeps awaits you.New York, USANew York City, often called "The Big Apple," is a bustling metropolis known for its towering skyscrapers, vibrant arts scene, and endless energy. From Times Square to Central Park, New York is a city that never sleeps and always inspires."New York is a city of dreams, where the skyline tells stories of ambition, and every street hums with the pulse of possibility.""In New York, you can feel the heartbeat of the world—from the hustle of Wall Street to the creativity of Broadway.""Whether it’s catching a cab in Midtown or finding a quiet moment in Central Park, New York is a place where every experience feels larger than life."These descriptions capture the essence of each destination, highlighting their unique qualities and why they are among the most beloved places in the world to visit</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <h2>About Us</h2>
+            <p>We are passionate about helping you discover new and exciting destinations worldwide. Our expert team curates the best travel experiences to make your trip unforgettable."Collect moments, not things.""Travel far, live fully.""Adventure awaits, go find it.""Make memories around the world.""See the world, share your story.""Travel: the best story you’ll ever tell.""Wander often, wonder always.""Travel leaves you speechless, then turns you into a storyteller.""Explore, dream, discover.""The journey is the destination."</p>
+        </section>
+
+        <!-- New Address and Copy Section -->
+        <section id="address" class="section address">
+            <h2>Visit Us</h2>
+            <div class="address-container">
+                <p id="address-text">123 Main Street, City, Country</p>
+                <button id="copy-button" class="copy-button">Copy Address</button>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 ExploreTheWorld. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to copy address -->
+    <script>
+        document.getElementById('copy-button').addEventListener('click', function () {
+            const addressText = document.getElementById('address-text').innerText;
+            navigator.clipboard.writeText(addressText).then(() => {
+                alert('Address copied to clipboard!');
+            }).catch(err => {
+                alert('Failed to copy: ', err);
+            });
+        });
+    </script>
+</body>
+</html>
